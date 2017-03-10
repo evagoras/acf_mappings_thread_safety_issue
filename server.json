@@ -1,0 +1,19 @@
+{
+    "name":"mappings_issue",
+    "app":{
+        "cfengine":"adobe@11"
+    },
+    "openBrowser":true,
+    "debug":false,
+    "jvm":{
+        "heapSize":1024,
+        "args":""
+    },
+    "web":{
+        "host":"127.0.0.1",
+        "http":{
+            "port":52831,
+            "enable":true
+        }
+    }
+}
