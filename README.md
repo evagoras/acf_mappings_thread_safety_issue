@@ -7,7 +7,7 @@ The CommandBox app starts at `http://127.0.0.1:52831`.
 
 ## jMeter
 You will need version 3.1 of jMeter.
-I use the `Custom Threads Plugin` - to install it you need to have the jMeter Plugins Manager installed (https://jmeter-plugins.org/wiki/PluginsManager/).
+I use the `Custom Threads Plugin` - to install it you need to first have the jMeter Plugins Manager installed (https://jmeter-plugins.org/wiki/PluginsManager/), and then select it from the list of available plugins from your `Options > Plugins Manager` menu.
 Once you have the plugin installed, restart your jMeter and open file `mappings_stress_test.jmx`.
 You can edit the number of threads to run through the `jp@gc - Ultimate Thread Group`.
 
