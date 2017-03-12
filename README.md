@@ -14,6 +14,6 @@ You can edit the number of threads to run through the `jp@gc - Ultimate Thread G
 ## See the issue
 - Open the file `http://127.0.0.1:52831/dump.html` in your browser.
 - Run the jMeter test.
-- Refresh the browser to see the errors.
+- Refresh the browser periodically, as the test is running, to see the errors.
 
 Any time the mapping `/test5` is not found, a new line will be added to the output with the mappings at that moment in time.
