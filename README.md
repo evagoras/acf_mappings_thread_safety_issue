@@ -16,5 +16,7 @@ You can edit the number of threads to run through the `jp@gc - Ultimate Thread G
 - Run the jMeter test.
 - Refresh the browser periodically, as the test is running, to see the errors. Each error line is written when the mapping `/test5` is not found, and lists the mappings at that moment in time.
 
+The issue to take away here, is that **there should not be any lines written out to `dump.html`** as the test is running.
+
 ## ACF10, ACF11, ACF2016
 CommandBox is set to run under ACF11. Change the `server.json` file to have things run under version 10 or 2016 - issue persists in all versions.
