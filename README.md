@@ -2,7 +2,7 @@
 This sample code is an attempt to show that the native ACF function `getApplicationMetadata()` is not thread safe.
 
 ## Run app using CommandBox
-Clone the repo into a new folder on yor system, `cd` into it and type `start`.
+Clone the repo into a new folder on your system, `cd` into it and type `start`.
 The CommandBox app starts at `http://127.0.0.1:52831`.
 
 ## jMeter
@@ -16,4 +16,4 @@ You can edit the number of threads to run through the `jp@gc - Ultimate Thread G
 - Run the jMeter test.
 - Refresh the browser to see the errors.
 
-Any time the mapping `/test5` is not found, a new line will be added to the output with the mappings at that moment of time.
+Any time the mapping `/test5` is not found, a new line will be added to the output with the mappings at that moment in time.
