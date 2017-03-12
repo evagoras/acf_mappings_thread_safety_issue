@@ -14,6 +14,7 @@ You can edit the number of threads to run through the `jp@gc - Ultimate Thread G
 ## See the issue
 - Open the file `http://127.0.0.1:52831/dump.html` in your browser.
 - Run the jMeter test.
-- Refresh the browser periodically, as the test is running, to see the errors.
+- Refresh the browser periodically, as the test is running, to see the errors. Each error line is written when the mapping `/test5` is not found, and lists the mappings at that moment in time.
 
-Any time the mapping `/test5` is not found, a new line will be added to the output with the mappings at that moment in time.
+## ACF10, ACF11, ACF2016
+CommandBox is set to run under ACF11. Change the `server.json` file to have things run under version 10 or 2016 - issue persists in all versions.
