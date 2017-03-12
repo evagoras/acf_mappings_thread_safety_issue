@@ -1,5 +1,5 @@
-# GetApplicationMetadata() thread safety in ACF11
-This sample code is an attempt to show that the native ACF function `GetApplicationMetadata()` is not thread safe.
+# GetApplicationMetadata() stress test safety issue
+This sample code is an attempt to show that the native Adobe ColdFusion function `GetApplicationMetadata()` is not thread safe.
 
 ## Run app using CommandBox
 Clone the repo into a new folder on your system, `cd` into it and type `start`.
