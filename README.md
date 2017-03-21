@@ -20,3 +20,7 @@ The issue to take away here, is that **there should not be any errors written ou
 
 ## ACF10, ACF11, ACF2016
 CommandBox is set to run under ACF11. Change the `server.json` file to have things run under version 10 or 2016 - issue persists in all versions.
+
+## Adobe ticket
+Brad Wood created a ticket for Adobe:
+https://tracker.adobe.com/#/view/CF-4198397
